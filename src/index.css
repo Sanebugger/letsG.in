@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Poiret+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Poiret+One&family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255) !important; 
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    color: rgb(122, 40, 186) !important;
+}
+.business{
+    color: rgb(122, 40, 186);
+}
+
+.navbar a:hover{
+    color: rgb(54, 7, 89) !important;
+}
+
+@media (max-width:900px) {
+    .navbar-brand{
+        font-size: 1.2rem;
+    }
+   
+    
+}
+
+.btn a{
+    text-decoration: none;
+    text-decoration-style: none;
+}
+.home{
+    background-color: rgb(77, 19, 131);
+}
